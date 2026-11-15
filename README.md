@@ -1,12 +1,14 @@
 # digital detective
 
 student information
-- github username: sujalswaraj-lab
+- name: sujal swaraj
 - usn last 4 digits: 8494
+- github username: sujalswaraj-lab
 - repository name: digital-detective-8494
+- repository url: https://github.com/sujalswaraj-lab/digital-detective-8494
 
-## about
-this is my diwali independent learning assignment exploring computer basics terminal commands operating systems python data representation git and networking
+## about the project
+this repository contains my work for the digital detective assignment exploring computer fundamentals terminal operations operating systems programming concepts number systems git collaboration and computer networks
 
 ## mission index
 - [mission 0 setup](mission-00-setup/README.md)
@@ -19,10 +21,31 @@ this is my diwali independent learning assignment exploring computer basics term
 - [mission 7 networking](mission-07-networking/README.md)
 - [mission 8 final report](mission-08-final-report/README.md)
 
+## topics explored
+- computer fundamentals and ipos model
+- hardware software and everyday systems
+- terminal navigation and file operations
+- flags pipes and package management
+- operating system processes paths and permissions
+- compilers and interpreters
+- binary decimal and hexadecimal conversions
+- ascii and utf-8 text encoding
+- git version control branches and pull requests
+- network types dns ping and client server model
+
+## how to run the number converter
+1 open terminal
+2 navigate to mission 5 folder:
+cd mission-05-numbers-data
+3 run the script:
+python3 number_converter.py
+4 enter a positive decimal number when prompted to see binary and hexadecimal results
+
 ## my learning
-- learned how to navigate and manage files with terminal commands
-- learned how computers use binary and hexadecimal to store numbers
-- learned how git records versions and branches let you work safely
+- learned how hardware and operating system manage running programs and memory
+- practiced navigating folders creating files and piping commands in terminal
+- understood number systems and converted values manually and with python
+- learned git version control branching workflow and network communications
 
 ## note
-each mission is completed and committed separately
+each mission was completed documented and committed separately
