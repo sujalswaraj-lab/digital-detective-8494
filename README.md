@@ -19,5 +19,10 @@ this is my diwali independent learning assignment exploring computer basics term
 - [mission 7 networking](mission-07-networking/README.md)
 - [mission 8 final report](mission-08-final-report/README.md)
 
+## my learning
+- learned how to navigate and manage files with terminal commands
+- learned how computers use binary and hexadecimal to store numbers
+- learned how git records versions and branches let you work safely
+
 ## note
 each mission is completed and committed separately
