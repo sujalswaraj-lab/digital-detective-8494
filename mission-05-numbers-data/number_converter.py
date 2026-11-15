@@ -1,3 +1,3 @@
-num = int(input("enter a decimal number: "))
-print("binary:", bin(num))
-print("hexadecimal:", hex(num))
+number = int(input("Enter a positive decimal number: "))
+print("Binary:", bin(number)[2:])
+print("Hexadecimal:", hex(number)[2:].upper())

@@ -1,70 +1,44 @@
-# mission 5 - numbers and data
+# Mission 5 — Number systems and data representation
 
-## 1 task / objective
-convert numbers between decimal binary and hexadecimal verify with python write a conversion script and understand text encoding
+## Task and objective
 
-## 2 work completed
-solved manual conversions by hand verified answers in python built number_converter.py and tested it with three numbers
+Convert between decimal, binary, and hexadecimal; verify results with Python; build a small number converter; and explain text encoding.
 
-## 3 commands / tools used
-- python3 interactive shell to run bin int and hex functions
-- python3 number_converter.py to run the converter script
+## Work completed
 
-## 4 my understanding
-computers store all data as binary bits decimal is base 10 binary is base 2 and hexadecimal is base 16 hexadecimal is used by programmers because it represents binary in a compact and readable format
+- Showed the working for all seven required manual conversions.
+- Separately checked each example with Python's built-in conversion functions; these checks do not replace the manual arithmetic.
+- Wrote `number_converter.py` to read a decimal integer and print binary and hexadecimal representations.
+- Ran the converter with three positive inputs: 13, 25, and 255.
+- Recorded ASCII decimal codes for `A` and `a`, and gave an example outside basic ASCII.
 
-### task 5.1 convert numbers by hand
+## Commands/tools used
 
-| question | your working and answer |
-| --- | --- |
-| convert decimal 13 to binary | 13/2 = 6 r 1, 6/2 = 3 r 0, 3/2 = 1 r 1, 1/2 = 0 r 1 -> 1101 |
-| convert decimal 25 to binary | 25/2 = 12 r 1, 12/2 = 6 r 0, 6/2 = 3 r 0, 3/2 = 1 r 1, 1/2 = 0 r 1 -> 11001 |
-| convert binary 1010 to decimal | (1*8) + (0*4) + (1*2) + (0*1) = 8 + 0 + 2 + 0 = 10 |
-| convert binary 1101 to decimal | (1*8) + (1*4) + (0*2) + (1*1) = 8 + 4 + 0 + 1 = 13 |
-| convert hexadecimal a to decimal | a in hex equals 10 in decimal |
-| convert hexadecimal 1f to decimal | (1*16) + (15*1) = 16 + 15 = 31 |
-| convert binary 1111 to hexadecimal | (1*8) + (1*4) + (1*2) + (1*1) = 15 which is f in hex |
+- `python3 --version` — observed Python 3.9.6.
+- Python interactive expressions using `bin()`, `hex()`, and `int(..., base)`.
+- `python3 number_converter.py` — ran and tested the converter.
+- Markdown files for calculation notes and sanitized test evidence.
 
-### task 5.2 verify using python
+## My understanding
 
-| expression tested | result | matches manual calculation |
-| --- | --- | --- |
-| bin(13) | '0b1101' | yes matches |
-| bin(25) | '0b11001' | yes matches |
-| int('1010', 2) | 10 | yes matches |
-| int('1101', 2) | 13 | yes matches |
-| int('a', 16) | 10 | yes matches |
-| int('1f', 16) | 31 | yes matches |
-| hex(0b1111) | '0xf' | yes matches |
+Binary uses powers of 2 and hexadecimal uses powers of 16. I can convert decimal to binary by repeatedly dividing by 2, subtracting each remainder, and reading the remainders in reverse. To convert binary or hexadecimal to decimal, I multiply each digit by its place value and add the results. Grouping four binary digits makes one hexadecimal digit because each four-bit group can represent values 0 through 15. Python is used separately to check the arithmetic and to complete the requested converter task. Text encoding maps characters to numeric data so computers can store and exchange written text.
 
-### task 5.3 build a small number converter
+## Difficulties faced
 
-test results:
+No technical difficulties occurred during the calculations or tests.
 
-| test number | binary output | hexadecimal output |
-| --- | --- | --- |
-| 10 | 0b1010 | 0xa |
-| 42 | 0b101010 | 0x2a |
-| 255 | 0b11111111 | 0xff |
+## How I resolved them
 
-explanation of functions:
-bin takes an integer and returns its binary representation string starting with 0b
-hex takes an integer and returns its hexadecimal representation string starting with 0x
+No difficulty needed resolution. I compared the built-in results with the written working and checked three different positive inputs through the converter.
 
-### task 5.4 how is text stored
-- ascii decimal code for uppercase a is 65 and lowercase a is 97
-- why computers need encoding standard: computers only understand numbers and binary bits so an encoding standard maps every character to a unique number so text displays properly on all systems
-- character not in basic ascii: accented letter like é or emoji characters
+## Evidence/files
 
-## 5 difficulties faced
-remembering hexadecimal letters from a to f
+- [Manual conversions, Python checks, and text encoding answers](conversions.md)
+- [Python decimal-to-binary/hex converter](number_converter.py)
+- [Sanitized interactive checks and three program runs](evidence/converter-runs.md)
 
-## 6 how i resolved them
-wrote down that a is 10 b is 11 c is 12 d is 13 e is 14 and f is 15
+## Commit details
 
-## 7 evidence / files
-- mission-05-numbers-data/number_converter.py
-- mission-05-numbers-data/readme.md
-
-## 8 commit details
-commit message build number converter and practise data representation
+- Commit message: `Build number converter and practise data representation`
+- Published branch: `main`
+- The original mission commit and the manual-arithmetic clarification are both recorded in the repository's [commit history](https://github.com/sujalswaraj-lab/digital-detective-8494/commits/main).

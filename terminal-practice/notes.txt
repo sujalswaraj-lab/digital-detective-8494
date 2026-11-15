@@ -1,0 +1,2 @@
+First line: input is processed.
+Second line: output is displayed.

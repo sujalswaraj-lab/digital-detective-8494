@@ -1,51 +1,57 @@
-# digital detective
+# Digital Detective
 
-student information
-- name: sujal swaraj
-- usn last 4 digits: 8494
-- github username: sujalswaraj-lab
-- repository name: digital-detective-8494
-- repository url: https://github.com/sujalswaraj-lab/digital-detective-8494
+## Student information
+- Name: Sujal Swaraj
+- USN last 4 digits: 8494
+- GitHub username: sujalswaraj-lab
+- GitHub repository name: digital-detective-8494
+- GitHub repository URL: https://github.com/sujalswaraj-lab/digital-detective-8494
 
-## about the project
-this repository contains my work for the digital detective assignment exploring computer fundamentals terminal operations operating systems programming concepts number systems git collaboration and computer networks
+Digital Detective is a hands-on project about computer systems, command-line tools, programming, data representation, version control, and networks. Each mission has its own folder for the work, and its evidence files record relevant observations and results.
 
-## mission index
-- [mission 0 setup](mission-00-setup/readme.md)
-- [mission 1 computer basics](mission-01-computer-basics/readme.md)
-- [mission 2 terminal](mission-02-terminal/readme.md)
-- [mission 3 operating system](mission-03-operating-system/readme.md)
-- [mission 4 programs](mission-04-programs/readme.md)
-- [mission 5 numbers and data](mission-05-numbers-data/readme.md)
-- [mission 6 git and github](mission-06-git-github/readme.md)
-- [mission 7 networking](mission-07-networking/readme.md)
-- [mission 8 final report](mission-08-final-report/readme.md)
+## Mission index
 
-## topics explored
-- computer fundamentals and ipos model
-- hardware software and everyday systems
-- terminal navigation and file operations
-- flags pipes and package management
-- operating system processes paths and permissions
-- compilers and interpreters
-- binary decimal and hexadecimal conversions
-- ascii and utf-8 text encoding
-- git version control branches and pull requests
-- network types dns ping and client server model
+| Mission | Status | Folder |
+| --- | --- | --- |
+| 0 — Create your GitHub workspace | Complete | [mission-00-github-workspace](mission-00-github-workspace/README.md) |
+| 1 — Know your computer | Complete | [mission-01](mission-01/README.md) |
+| 2 — Command-line interface and package managers | Complete | [mission-02](mission-02/README.md) |
+| 3 — Operating systems, processes, paths, and permissions | Complete | [mission-03](mission-03/README.md) |
+| 4 — Compilers and interpreters | Complete | [mission-04](mission-04/README.md) |
+| 5 — Number systems and data representation | Complete | [mission-05-numbers-data](mission-05-numbers-data/README.md) |
+| 6 — Version control and collaboration | Complete | [mission-06](mission-06/README.md) |
+| 7 — Networks and the internet | Complete | [mission-07](mission-07/README.md) |
+| 8 — Final review | Complete | [mission-08](mission-08/README.md) |
 
-## how to run the number converter
-1 open terminal
-2 navigate to mission 5 folder:
-cd mission-05-numbers-data
-3 run the script:
-python3 number_converter.py
-4 enter a positive decimal number when prompted to see binary and hexadecimal results
+## Completion summary
 
-## my learning
-- learned how hardware and operating system manage running programs and memory
-- practiced navigating folders creating files and piping commands in terminal
-- understood number systems and converted values manually and with python
-- learned git version control branching workflow and network communications
+- Mission 0: created the public GitHub workspace, mission folder structure, and placeholders. See the [Mission 0 evidence record](evidence/mission-00-setup.md).
+- Mission 1: documented IPOS, hardware and software, and three everyday computer-based systems. See the [Mission 1 README](mission-01/README.md).
+- Mission 2: practised CLI file management, listings, pipes, and Homebrew checks. See the [Mission 2 README](mission-02/README.md).
+- Mission 3: inspected the OS, process list, paths, and file permissions, and documented OS responsibilities. See the [Mission 3 README](mission-03/README.md).
+- Mission 4: ran a Python program and compared compilers and interpreters.
+- Mission 5: worked through manual number conversions, Python checks, and text encoding.
+- Mission 6: documented Git workflow and terminology; its pull request was merged on GitHub.
+- Mission 7: explained network concepts, checked public DNS and reachability, and described a browser request.
+- Mission 8: reviewed the project structure, mission reports, evidence links, and current publication status. See the [final review](mission-08/README.md).
 
-## note
-each mission was completed documented and committed separately
+## Run the number converter
+
+Python version:
+```sh
+python3 mission-05-numbers-data/number_converter.py
+```
+
+Bash alternative:
+```sh
+bash mission-05-numbers-data/number_converter.sh
+```
+
+Enter a positive decimal whole number when prompted. For example, input `13` produces binary `1101` and hexadecimal `D`.
+
+## My Learning
+
+- I learned how input, processing, output, and storage work together in a computer system.
+- I learned that staging selects changes for a commit, while a commit records those selected changes in history.
+- I learned that a branch and pull request let work be shared and reviewed separately before it is merged.
+- I learned that repeated division and remainders can build binary and hexadecimal representations from a decimal number.
