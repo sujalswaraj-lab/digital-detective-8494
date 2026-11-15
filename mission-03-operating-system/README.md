@@ -41,7 +41,7 @@ an absolute path starts from the root directory / and gives the complete path fr
 
 - path examples
 absolute path: /users/[redacted]/.gemini/antigravity/scratch/digital-detective-8494/mission-03-operating-system
-relative path: mission-03-operating-system/README.md
+relative path: mission-03-operating-system/readme.md
 
 - file permissions explanation
 for notes.txt the owner permission is rw- which means read and write
@@ -68,7 +68,7 @@ understanding the permission string symbols at first
 read the permission letters rw- and broke them down into read write and execute
 
 ## 7 evidence / files
-- mission-03-operating-system/README.md
+- mission-03-operating-system/readme.md
 
 ## 8 commit details
 commit message document operating system and file management

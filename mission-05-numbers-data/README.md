@@ -64,7 +64,7 @@ wrote down that a is 10 b is 11 c is 12 d is 13 e is 14 and f is 15
 
 ## 7 evidence / files
 - mission-05-numbers-data/number_converter.py
-- mission-05-numbers-data/README.md
+- mission-05-numbers-data/readme.md
 
 ## 8 commit details
 commit message build number converter and practise data representation

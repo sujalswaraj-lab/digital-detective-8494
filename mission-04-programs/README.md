@@ -41,7 +41,7 @@ not applicable
 
 ## 7 evidence / files
 - mission-04-programs/hello.py
-- mission-04-programs/README.md
+- mission-04-programs/readme.md
 
 ## 8 commit details
 commit message compare compilers and interpreters

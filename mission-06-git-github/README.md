@@ -58,7 +58,7 @@ understanding when to switch branches
 used git branch to see active branch before making commits
 
 ## 7 evidence / files
-- mission-06-git-github/README.md
+- mission-06-git-github/readme.md
 - branch update-about merged into main
 
 ## 8 commit details

@@ -53,7 +53,7 @@ reading the detailed ping output at first
 looked at the summary at the bottom showing 0 percent packet loss
 
 ## 7 evidence / files
-- mission-07-networking/README.md
+- mission-07-networking/readme.md
 
 ## 8 commit details
 commit message explain networking concepts and website communication

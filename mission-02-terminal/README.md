@@ -69,7 +69,7 @@ confused about difference between > and >> at first
 tested both in terminal and saw that > wiped previous lines while >> added new lines below
 
 ## 7 evidence / files
-- mission-02-terminal/README.md
+- mission-02-terminal/readme.md
 - mission-02-terminal/terminal-practice/notes.txt
 - mission-02-terminal/terminal-practice/notes_renamed.txt
 

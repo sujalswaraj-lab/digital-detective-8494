@@ -51,8 +51,8 @@ keeping all formatting clean and consistent across all missions
 reviewed each folder and verified checklist items one by one
 
 ## 7 evidence / files
-- mission-08-final-report/README.md
-- root README.md
+- mission-08-final-report/readme.md
+- root readme.md
 
 ## 8 commit details
 commit message complete final report and verify assignment submission

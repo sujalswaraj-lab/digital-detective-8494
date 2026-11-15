@@ -50,7 +50,7 @@ no major difficulties
 not applicable
 
 ## 7 evidence / files
-- mission-01-computer-basics/README.md
+- mission-01-computer-basics/readme.md
 
 ## 8 commit details
 commit message complete computer basics and ipos mission

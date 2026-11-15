@@ -22,8 +22,8 @@ no major difficulties
 not applicable
 
 ## 7 evidence / files
-- mission-00-setup/README.md
-- README.md
+- mission-00-setup/readme.md
+- readme.md
 - all mission folders created
 
 ## 8 commit details
